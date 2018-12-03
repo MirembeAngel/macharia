@@ -1,0 +1,90 @@
+  
+  {% extends "layout.html" %}
+  {% block body %}
+
+
+    <h3>Hello Everyone.....!!!!!</h3>
+    <p>This is Kawa Designs</p>
+    <p>we are found in Kampala Uganda</p>
+    <button class="btn btn-primary">Read more</button>
+    
+    <button class="btn btn-success">Read more</button>
+    <button class="btn btn-danger ">Read more</button>
+    <button class="btn btn-info ">Read more</button>
+    
+
+    <!--Form-->
+    <form action="process.php"method="GET">
+      <div>
+    <br>
+    <hr>
+    <form>
+    <label>FirstName</label><br>
+    <br>
+    <input type="text"name="firstName"><br>
+    <br>
+    <label>LastName</label><br>
+    <br>
+    <input type="text"name="lastName"><br>
+    <br>
+    <label>phoneNumber</label><br>
+    <br>
+    
+    <input type="number"name="PhoneNumber"><br>
+    </div>
+    <br>
+    <label>message</label><br>
+    <textarea name="message">message</textarea>
+    </div>
+    <br>
+    <div>
+    <label>Gender</label><br>
+    <br>
+    <select name="gender"><br>
+      <br>
+      <option value="male">male</option><br>
+      <br>
+      <option value="female">female</option><br>
+      <br>
+      <option value="others">Others</option><br>
+    </select>
+    </div>
+    <br>
+    <label>Birthday:</label><br>
+    <br>
+    <input type="date"name="birthday"><br>
+    </div>
+    <br>
+    <label>Age:</label><br>
+    <br>
+    <input type="number"name="age"value="32"><br>
+    <br>
+    <input type="text"name="firstName"value="Enter first name"><br>
+    <br>
+    <input type="submit"name="submit"value="submit"><br>
+    <br>
+    <!--Button-->
+    <button>Click me</button>
+    <!--Image--> 
+    </div>
+    <br>
+    
+    <!--quotation-->
+    <blockquote cite="http://traver symedia.com">
+      <p>The wed page<abbr title="world wide wide wed">WWW</abbr>is awesome</p>
+      <br>
+      <p><cite>HTML crash course</cite>by Angel traversy</p>
+      <br>
+    </blockquote>
+  </form>
+  {% endblock %}   
+    
+    
+    
+           
+
+
+
+
+
+  
